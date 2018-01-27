@@ -7,12 +7,30 @@
 //
 
 import UIKit
+import TesseractOCR
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,G8TesseractDelegate {
 
+    @IBOutlet weak var textView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        if  let tessaract = G8Tesseract(language: "testdata/eng"){
+                tessaract.delegate = self
+            
+            tessaract.image = UIImage(named: "abc")?.g8_blackAndWhite()
+            tessaract.recognize()
+            
+            textView.text = tessaract.recognizedText
+        }
+        
+    }
+    
+    
+    func progressImageRecognition(for tesseract: G8Tesseract!) {
+        print("Image recognition of \(tesseract.progress) %")
     }
 
     override func didReceiveMemoryWarning() {
