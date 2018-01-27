@@ -28,6 +28,49 @@ class ViewController: UIViewController,G8TesseractDelegate {
         
     }
     
+    @IBAction func addImage(_ sender: Any) {
+        
+       //add the option to choose from camera and galley option to choose to uplaod the image from.
+        
+        
+        let imageOptions = UIAlertController(title: "Choose an action", message: "choose a method to add from that destination", preferredStyle: .actionSheet)
+        
+        let cameraOption = UIAlertAction(title: "Camera", style: .default) { (true) in
+            
+            if UIImagePickerController.isSourceTypeAvailable(.camera){
+            let imagePicker = UIImagePickerController()
+            imagePicker.allowsEditing = false
+            imagePicker.sourceType = .camera
+            
+                self.present(imagePicker, animated: true, completion: nil)
+            }
+            
+        }
+        
+        imageOptions.addAction(cameraOption)
+        
+        let galleryOption = UIAlertAction(title: "Phtot Gallery", style: .default) { (true) in
+            
+            
+            if UIImagePickerController.isSourceTypeAvailable(.photoLibrary){
+                
+                let imageSelected = UIImagePickerController()
+                imageSelected.allowsEditing = false
+                imageSelected.sourceType = .photoLibrary
+                
+                self.present(imageSelected, animated: true, completion: nil)
+                
+            }
+        }
+        
+        imageOptions.addAction(galleryOption)
+        
+        let cancelOption = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        imageOptions.addAction(cancelOption)
+        
+     present(imageOptions, animated: true, completion: nil)
+        
+    }
     
     func progressImageRecognition(for tesseract: G8Tesseract!) {
         print("Image recognition of \(tesseract.progress) %")
