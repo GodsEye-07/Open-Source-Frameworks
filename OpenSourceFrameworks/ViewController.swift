@@ -17,10 +17,10 @@ class ViewController: UIViewController,G8TesseractDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        if  let tessaract = G8Tesseract(language: "testdata/eng"){
+        if  let tessaract = G8Tesseract(language: "eng"){
                 tessaract.delegate = self
             
-            tessaract.image = UIImage(named: "abc")?.g8_blackAndWhite()
+            tessaract.image = UIImage(named: "abc")?.g8_grayScale()
             tessaract.recognize()
             
             textView.text = tessaract.recognizedText

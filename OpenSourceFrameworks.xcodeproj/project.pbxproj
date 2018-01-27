@@ -12,7 +12,7 @@
 		2ABA8FB4201C8A1F00C5F061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ABA8FB2201C8A1F00C5F061 /* Main.storyboard */; };
 		2ABA8FB6201C8A1F00C5F061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ABA8FB5201C8A1F00C5F061 /* Assets.xcassets */; };
 		2ABA8FB9201C8A1F00C5F061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ABA8FB7201C8A1F00C5F061 /* LaunchScreen.storyboard */; };
-		2ABA8FC1201C8EEF00C5F061 /* testdata in Resources */ = {isa = PBXBuildFile; fileRef = 2ABA8FC0201C8EEF00C5F061 /* testdata */; };
+		2AECC4BE201CE45B004F5212 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 2AECC4BD201CE45B004F5212 /* tessdata */; };
 		9DE7D13FCFC0037D5E6DF07A /* Pods_OpenSourceFrameworks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B386FF5139F4FA347205E147 /* Pods_OpenSourceFrameworks.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 		2ABA8FB5201C8A1F00C5F061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ABA8FB8201C8A1F00C5F061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ABA8FBA201C8A1F00C5F061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2ABA8FC0201C8EEF00C5F061 /* testdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = testdata; sourceTree = "<group>"; };
+		2AECC4BD201CE45B004F5212 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 		4E9BBEE2EFDCB4D5BAAB6933 /* Pods-OpenSourceFrameworks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenSourceFrameworks.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenSourceFrameworks/Pods-OpenSourceFrameworks.release.xcconfig"; sourceTree = "<group>"; };
 		63DA84C60158F8400D4E451F /* Pods-OpenSourceFrameworks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenSourceFrameworks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenSourceFrameworks/Pods-OpenSourceFrameworks.debug.xcconfig"; sourceTree = "<group>"; };
 		B386FF5139F4FA347205E147 /* Pods_OpenSourceFrameworks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenSourceFrameworks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,8 +73,8 @@
 			children = (
 				2ABA8FAE201C8A1F00C5F061 /* AppDelegate.swift */,
 				2ABA8FB0201C8A1F00C5F061 /* ViewController.swift */,
+				2AECC4BD201CE45B004F5212 /* tessdata */,
 				2ABA8FB2201C8A1F00C5F061 /* Main.storyboard */,
-				2ABA8FC0201C8EEF00C5F061 /* testdata */,
 				2ABA8FB5201C8A1F00C5F061 /* Assets.xcassets */,
 				2ABA8FB7201C8A1F00C5F061 /* LaunchScreen.storyboard */,
 				2ABA8FBA201C8A1F00C5F061 /* Info.plist */,
@@ -154,8 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ABA8FB9201C8A1F00C5F061 /* LaunchScreen.storyboard in Resources */,
+				2AECC4BE201CE45B004F5212 /* tessdata in Resources */,
 				2ABA8FB6201C8A1F00C5F061 /* Assets.xcassets in Resources */,
-				2ABA8FC1201C8EEF00C5F061 /* testdata in Resources */,
 				2ABA8FB4201C8A1F00C5F061 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
