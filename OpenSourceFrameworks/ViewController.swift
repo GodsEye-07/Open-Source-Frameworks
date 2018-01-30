@@ -23,8 +23,6 @@ class ViewController: UIViewController,G8TesseractDelegate {
             //try to set the image that is captured from the camera or directly from the gallery
             
             
-            
-            
             tessaract.image = UIImage(named: "demoText")?.g8_grayScale()
             tessaract.recognize()
             
@@ -42,12 +40,13 @@ class ViewController: UIViewController,G8TesseractDelegate {
         
         let cameraOption = UIAlertAction(title: "Camera", style: .default) { (true) in
             
-            if UIImagePickerController.isSourceTypeAvailable(.camera){
-            let imagePicker = UIImagePickerController()
-            imagePicker.allowsEditing = false
-            imagePicker.sourceType = .camera
-            
+                if UIImagePickerController.isSourceTypeAvailable(.camera){
+                let imagePicker = UIImagePickerController()
+                imagePicker.allowsEditing = false
+                imagePicker.sourceType = .camera
+                
                 self.present(imagePicker, animated: true, completion: nil)
+      
             }
             
         }
