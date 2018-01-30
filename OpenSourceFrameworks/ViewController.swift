@@ -20,7 +20,7 @@ class ViewController: UIViewController,G8TesseractDelegate {
         if  let tessaract = G8Tesseract(language: "eng"){
                 tessaract.delegate = self
             
-            tessaract.image = UIImage(named: "a")?.g8_grayScale()
+            tessaract.image = UIImage(named: "demoText")?.g8_grayScale()
             tessaract.recognize()
             
             textView.text = tessaract.recognizedText
