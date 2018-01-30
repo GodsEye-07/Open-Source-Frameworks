@@ -20,6 +20,11 @@ class ViewController: UIViewController,G8TesseractDelegate {
         if  let tessaract = G8Tesseract(language: "eng"){
                 tessaract.delegate = self
             
+            //try to set the image that is captured from the camera or directly from the gallery
+            
+            
+            
+            
             tessaract.image = UIImage(named: "demoText")?.g8_grayScale()
             tessaract.recognize()
             
