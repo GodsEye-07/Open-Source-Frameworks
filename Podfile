@@ -7,5 +7,6 @@ target 'OpenSourceFrameworks' do
 
   # Pods for OpenSourceFrameworks
 pod 'TesseractOCRiOS', '4.0.0'
+pod "SAConfettiView"
 
 end

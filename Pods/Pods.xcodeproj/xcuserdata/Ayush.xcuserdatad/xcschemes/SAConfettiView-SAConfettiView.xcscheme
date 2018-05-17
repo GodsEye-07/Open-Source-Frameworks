@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF27A90D8901FC37CC9E12EFAB7F243A"
-               BuildableName = "TesseractOCR.framework"
-               BlueprintName = "TesseractOCRiOS"
+               BlueprintIdentifier = "C9E5E81BF76576386EEAA3A41D50F50A"
+               BuildableName = "SAConfettiView.bundle"
+               BlueprintName = "SAConfettiView-SAConfettiView"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF27A90D8901FC37CC9E12EFAB7F243A"
-            BuildableName = "TesseractOCR.framework"
-            BlueprintName = "TesseractOCRiOS"
+            BlueprintIdentifier = "C9E5E81BF76576386EEAA3A41D50F50A"
+            BuildableName = "SAConfettiView.bundle"
+            BlueprintName = "SAConfettiView-SAConfettiView"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
