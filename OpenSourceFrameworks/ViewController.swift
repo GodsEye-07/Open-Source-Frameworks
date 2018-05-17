@@ -23,7 +23,7 @@ class ViewController: UIViewController,G8TesseractDelegate {
             //try to set the image that is captured from the camera or directly from the gallery
             
             
-            tessaract.image = UIImage(named: "demoText")?.g8_grayScale()
+            tessaract.image = UIImage(named: "abcd")?.g8_grayScale()
             tessaract.recognize()
             
             textView.text = tessaract.recognizedText
