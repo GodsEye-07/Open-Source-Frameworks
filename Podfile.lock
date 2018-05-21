@@ -1,20 +1,24 @@
 PODS:
+  - AGCircularPicker (0.1.8)
   - SAConfettiView (0.1.8)
   - TesseractOCRiOS (4.0.0)
 
 DEPENDENCIES:
+  - AGCircularPicker
   - SAConfettiView
   - TesseractOCRiOS (= 4.0.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - AGCircularPicker
     - SAConfettiView
     - TesseractOCRiOS
 
 SPEC CHECKSUMS:
+  AGCircularPicker: 561707b238699a00b4e8dc1da443119c9064798d
   SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
   TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
 
-PODFILE CHECKSUM: 9874e32efd56be68977f0d1e5069c5cdea3b6e29
+PODFILE CHECKSUM: 86ee4d5e250e33f8ce7ee3a776117024c5c9e03e
 
 COCOAPODS: 1.5.0
