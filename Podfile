@@ -9,5 +9,6 @@ target 'OpenSourceFrameworks' do
 pod 'TesseractOCRiOS', '4.0.0'
 pod "SAConfettiView"
 pod "AGCircularPicker"
+pod "SwiftSiriWaveformView"
 
 end

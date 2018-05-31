@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A2593FF201E6AC200BE617C /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 2A2593FE201E6AC200BE617C /* tessdata */; };
+		2A5FBBF120C0635A00467A2E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FBBF020C0635A00467A2E /* ThirdViewController.swift */; };
 		2ABA8FAF201C8A1F00C5F061 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABA8FAE201C8A1F00C5F061 /* AppDelegate.swift */; };
 		2ABA8FB1201C8A1F00C5F061 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABA8FB0201C8A1F00C5F061 /* ViewController.swift */; };
 		2ABA8FB4201C8A1F00C5F061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ABA8FB2201C8A1F00C5F061 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		2A2593FE201E6AC200BE617C /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		2A5FBBF020C0635A00467A2E /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		2ABA8FAB201C8A1F00C5F061 /* OpenSourceFrameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenSourceFrameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABA8FAE201C8A1F00C5F061 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ABA8FB0201C8A1F00C5F061 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				2ABA8FAE201C8A1F00C5F061 /* AppDelegate.swift */,
 				2ABA8FB0201C8A1F00C5F061 /* ViewController.swift */,
 				2ADC02D420ADEA9000802C72 /* ConfettiViewController.swift */,
+				2A5FBBF020C0635A00467A2E /* ThirdViewController.swift */,
 				2ABA8FB2201C8A1F00C5F061 /* Main.storyboard */,
 				2A2593FE201E6AC200BE617C /* tessdata */,
 				2ABA8FB5201C8A1F00C5F061 /* Assets.xcassets */,
@@ -192,12 +195,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-OpenSourceFrameworks/Pods-OpenSourceFrameworks-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AGCircularPicker/AGCircularPicker.framework",
 				"${BUILT_PRODUCTS_DIR}/SAConfettiView/SAConfettiView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSiriWaveformView/SwiftSiriWaveformView.framework",
 				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AGCircularPicker.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAConfettiView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSiriWaveformView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +219,7 @@
 			files = (
 				2ABA8FB1201C8A1F00C5F061 /* ViewController.swift in Sources */,
 				2ADC02D520ADEA9000802C72 /* ConfettiViewController.swift in Sources */,
+				2A5FBBF120C0635A00467A2E /* ThirdViewController.swift in Sources */,
 				2ABA8FAF201C8A1F00C5F061 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

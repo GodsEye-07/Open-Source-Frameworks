@@ -1,24 +1,28 @@
 PODS:
   - AGCircularPicker (0.1.8)
   - SAConfettiView (0.1.8)
+  - SwiftSiriWaveformView (2.4.0)
   - TesseractOCRiOS (4.0.0)
 
 DEPENDENCIES:
   - AGCircularPicker
   - SAConfettiView
+  - SwiftSiriWaveformView
   - TesseractOCRiOS (= 4.0.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - AGCircularPicker
     - SAConfettiView
+    - SwiftSiriWaveformView
     - TesseractOCRiOS
 
 SPEC CHECKSUMS:
   AGCircularPicker: 561707b238699a00b4e8dc1da443119c9064798d
   SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
+  SwiftSiriWaveformView: baa04ed2089e854af00ea54c38a7700ca43d7ae0
   TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
 
-PODFILE CHECKSUM: 86ee4d5e250e33f8ce7ee3a776117024c5c9e03e
+PODFILE CHECKSUM: 029370d9cca706626a41f93fcfefad92ea227219
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
